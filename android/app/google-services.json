@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "239241087782",
+    "project_id": "fmanga-afec2",
+    "storage_bucket": "fmanga-afec2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239241087782:android:d4af1140dbd21bfb940fe7",
+        "android_client_info": {
+          "package_name": "com.example.flutter_mangadex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239241087782-idtn8m4i1sduo80035pkgbo0rqquak8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD09GkHnm3kHzYWZLcOzZWFa1zf3e9p52M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239241087782-idtn8m4i1sduo80035pkgbo0rqquak8h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "239241087782-gdu7bdmu49t0n68hg407i9hs4i1hrv8c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterMangadex"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
