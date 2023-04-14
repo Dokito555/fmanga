@@ -1,16 +1,18 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
-import '../../core/utility/app_color_palette.dart';
+import '../../../core/utility/app_color_palette.dart';
 import '../components/custom_drawer.dart';
+import '../components/profile_icon.dart';
 
-class SignUpPage extends StatefulWidget {
-  const SignUpPage({super.key});
+class LatestUpdatePage extends StatefulWidget {
+  const LatestUpdatePage({super.key});
 
   @override
-  State<SignUpPage> createState() => _SignUpPageState();
+  State<LatestUpdatePage> createState() => _LatestUpdateState();
 }
 
-class _SignUpPageState extends State<SignUpPage> {
+class _LatestUpdateState extends State<LatestUpdatePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,10 +24,12 @@ class _SignUpPageState extends State<SignUpPage> {
         backgroundColor: Colors.transparent,
         title: const Text('Mangadex', style: TextStyle(color: Colors.white),),
         actions: const <Widget>[
+          ProfileIcon()
         ],
       ),
-      body: Center(child: Text('Sign Up'),),
+      body: Center(child: Text('Latest Update'),),
       drawer: const CustomDrawer(),
     );
   }
 }
+

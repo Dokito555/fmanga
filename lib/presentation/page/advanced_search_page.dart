@@ -1,16 +1,18 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_mangadex/presentation/components/profile_icon.dart';
 
-import '../../core/utility/app_color_palette.dart';
+import '../../../core/utility/app_color_palette.dart';
 import '../components/custom_drawer.dart';
 
-class SignUpPage extends StatefulWidget {
-  const SignUpPage({super.key});
+class AdvancedSearch extends StatefulWidget {
+  const AdvancedSearch({super.key});
 
   @override
-  State<SignUpPage> createState() => _SignUpPageState();
+  State<AdvancedSearch> createState() => _AdvancedSearchState();
 }
 
-class _SignUpPageState extends State<SignUpPage> {
+class _AdvancedSearchState extends State<AdvancedSearch> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,9 +24,10 @@ class _SignUpPageState extends State<SignUpPage> {
         backgroundColor: Colors.transparent,
         title: const Text('Mangadex', style: TextStyle(color: Colors.white),),
         actions: const <Widget>[
+          ProfileIcon()
         ],
       ),
-      body: Center(child: Text('Sign Up'),),
+      body: Center(child: Text('Search'),),
       drawer: const CustomDrawer(),
     );
   }
